@@ -7,7 +7,7 @@ components:
     vars:
       ENABLE_UI: true
   - type: stateless
-    name: httpsql
+    name: api
     containers:
       - dir: ./
         readyCheck:
