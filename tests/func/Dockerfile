@@ -1,7 +1,8 @@
 FROM ubuntu
 
 # install libs
-RUN apt-get update -y && apt-get install -y curl jq
+RUN apt update -y 
+RUN apt  install -y curl jq
 
 # copy test script
 COPY run.sh /
